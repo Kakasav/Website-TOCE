@@ -1,0 +1,1265 @@
+DEBUG - 2026-06-12 02:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 02:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 02:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 02:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-12 04:53:15 --> ErrorException: Undefined array key "server_required"
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 50.
+ 1 APPPATH\Views\home\checkout.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "server_required"', 'C:\\xampp\\htdocs\\ToCe\\app\\Views\\home\\checkout.php', 50)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\ToCe\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\HomeController.php(59): view('home/checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 04:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-12 04:53:20 --> ErrorException: Undefined array key "server_required"
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 50.
+ 1 APPPATH\Views\home\checkout.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "server_required"', 'C:\\xampp\\htdocs\\ToCe\\app\\Views\\home\\checkout.php', 50)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\ToCe\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\HomeController.php(59): view('home/checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 04:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-12 04:53:44 --> ErrorException: Undefined array key "server_required"
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 50.
+ 1 APPPATH\Views\home\checkout.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "server_required"', 'C:\\xampp\\htdocs\\ToCe\\app\\Views\\home\\checkout.php', 50)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\ToCe\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\HomeController.php(59): view('home/checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 04:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 04:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-12 04:55:29 --> CodeIgniter\Filters\Exceptions\FilterException: "adminAuth" filter must have a matching alias defined.
+[Method: GET, Route: admin]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('adminAuth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('adminAuth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 07:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-12 07:41:10 --> CodeIgniter\Filters\Exceptions\FilterException: "adminAuth" filter must have a matching alias defined.
+[Method: GET, Route: admin]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('adminAuth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('adminAuth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 07:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-06-12 07:44:32 --> Unknown column 'games.server_required' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 9 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+CRITICAL - 2026-06-12 07:44:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'games.server_required' in 'field list'
+[Method: GET, Route: orders]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 2 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 6 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+CRITICAL - 2026-06-12 07:44:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'games.server_required' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 4 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 8 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+CRITICAL - 2026-06-12 07:44:32 --> [Caused by] mysqli_sql_exception: Unknown column 'games.server_required' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 9 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 07:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-06-12 07:45:50 --> Unknown column 'games.server_required' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 9 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+CRITICAL - 2026-06-12 07:45:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'games.server_required' in 'field list'
+[Method: GET, Route: orders]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 2 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 6 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+CRITICAL - 2026-06-12 07:45:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'games.server_required' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 4 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 8 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+CRITICAL - 2026-06-12 07:45:50 --> [Caused by] mysqli_sql_exception: Unknown column 'games.server_required' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 9 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 07:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-06-12 07:46:16 --> Unknown column 'games.server_required' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 9 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+CRITICAL - 2026-06-12 07:46:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'games.server_required' in 'field list'
+[Method: GET, Route: orders]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 2 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 6 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+CRITICAL - 2026-06-12 07:46:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'games.server_required' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 4 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 8 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+CRITICAL - 2026-06-12 07:46:16 --> [Caused by] mysqli_sql_exception: Unknown column 'games.server_required' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = 1
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `orders`.*, `top_up_items`.`nama_paket`, `top_up_items`.`jumlah`, `games`.`nama_game`, `games`.`server_required`, `games`.`label_id`, `games`.`label_server`, `payment_methods`.`nama` AS `metode_bayar`, `users`.`username`
+FROM `orders`
+JOIN `top_up_items` ON `top_up_items`.`id` = `orders`.`item_id`
+JOIN `games` ON `games`.`id` = `top_up_items`.`game_id`
+JOIN `payment_methods` ON `payment_methods`.`id` = `orders`.`payment_id`
+JOIN `users` ON `users`.`id` = `orders`.`user_id`
+WHERE `orders`.`user_id` = :orders.user_id:
+ORDER BY `orders`.`created_at` DESC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1337): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Models\OrderModel.php(37): CodeIgniter\BaseModel->paginate(10, 'orders')
+ 9 APPPATH\Controllers\HomeController.php(155): App\Models\OrderModel->getByUser(1, 10)
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->orders()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 07:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 07:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:36:40 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:37:23 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:37:26 --> [AdminFilter] user_id=1 role=admin
+CRITICAL - 2026-06-12 08:37:26 --> CodeIgniter\Pager\Exceptions\PagerException: "tabler_pagination" is not a valid Pager template.
+[Method: GET, Route: admin/orders]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('tabler_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('admin_orders', 'tabler_pagination')
+ 3 APPPATH\Views\admin\orders.php(122): CodeIgniter\Pager\Pager->links('admin_orders', 'tabler_pagination')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\ToCe\\app\\Views\\admin\\orders.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/orders', [], true)
+ 7 APPPATH\Controllers\Admin\Orders.php(26): view('admin/orders', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Orders->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 08:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:37:38 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:37:44 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:37:45 --> [AdminFilter] user_id=1 role=admin
+CRITICAL - 2026-06-12 08:37:45 --> CodeIgniter\Pager\Exceptions\PagerException: "tabler_pagination" is not a valid Pager template.
+[Method: GET, Route: admin/orders]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('tabler_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('admin_orders', 'tabler_pagination')
+ 3 APPPATH\Views\admin\orders.php(122): CodeIgniter\Pager\Pager->links('admin_orders', 'tabler_pagination')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\ToCe\\app\\Views\\admin\\orders.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/orders', [], true)
+ 7 APPPATH\Controllers\Admin\Orders.php(26): view('admin/orders', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Orders->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 08:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:37:48 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:37:49 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:37:51 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:37:52 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:39:16 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:39:54 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:39:57 --> [AdminFilter] user_id=1 role=admin
+CRITICAL - 2026-06-12 08:39:57 --> CodeIgniter\Pager\Exceptions\PagerException: "tabler_pagination" is not a valid Pager template.
+[Method: GET, Route: admin/orders]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('tabler_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('admin_orders', 'tabler_pagination')
+ 3 APPPATH\Views\admin\orders.php(122): CodeIgniter\Pager\Pager->links('admin_orders', 'tabler_pagination')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\ToCe\\app\\Views\\admin\\orders.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/orders', [], true)
+ 7 APPPATH\Controllers\Admin\Orders.php(26): view('admin/orders', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Orders->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 08:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:40:10 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:40:40 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:40:42 --> [AdminFilter] user_id=1 role=admin
+CRITICAL - 2026-06-12 08:40:42 --> CodeIgniter\Pager\Exceptions\PagerException: "tabler_pagination" is not a valid Pager template.
+[Method: GET, Route: admin/orders]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('tabler_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('admin_orders', 'tabler_pagination')
+ 3 APPPATH\Views\admin\orders.php(122): CodeIgniter\Pager\Pager->links('admin_orders', 'tabler_pagination')
+ 4 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\ToCe\\app\\Views\\admin\\orders.php')
+ 5 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/orders', [], true)
+ 7 APPPATH\Controllers\Admin\Orders.php(26): view('admin/orders', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Orders->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 08:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:45:45 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:46:00 --> [AdminFilter] user_id=1 role=admin
+CRITICAL - 2026-06-12 08:46:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/order_detail.php"
+[Method: GET, Route: admin/orders/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/order_detail.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/order_detail', [], true)
+ 3 APPPATH\Controllers\Admin\Orders.php(41): view('admin/order_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Orders->detail(3)
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 08:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:47:54 --> [AdminFilter] user_id=1 role=admin
+CRITICAL - 2026-06-12 08:47:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/order_detail.php"
+[Method: GET, Route: admin/orders/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/order_detail.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/order_detail', [], true)
+ 3 APPPATH\Controllers\Admin\Orders.php(41): view('admin/order_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Orders->detail(3)
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 08:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:47:56 --> [AdminFilter] user_id=1 role=admin
+CRITICAL - 2026-06-12 08:47:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/order_detail.php"
+[Method: GET, Route: admin/orders/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/order_detail.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/order_detail', [], true)
+ 3 APPPATH\Controllers\Admin\Orders.php(41): view('admin/order_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Orders->detail(3)
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 08:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:47:57 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:47:59 --> [AdminFilter] user_id=1 role=admin
+CRITICAL - 2026-06-12 08:47:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/order_detail.php"
+[Method: GET, Route: admin/orders/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/order_detail.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/order_detail', [], true)
+ 3 APPPATH\Controllers\Admin\Orders.php(41): view('admin/order_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Orders->detail(3)
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Orders))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 08:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:59:25 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 08:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 08:59:27 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 09:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 09:01:12 --> [AdminFilter] user_id=1 role=admin
+CRITICAL - 2026-06-12 09:01:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/payments.php"
+[Method: GET, Route: admin/payments]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/payments.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('admin/payments', [], true)
+ 3 APPPATH\Controllers\Admin\Payments.php(19): view('admin/payments', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Admin\Payments->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Payments))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 09:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 09:02:00 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 09:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 09:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 09:02:09 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 09:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 09:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 09:02:12 --> [AdminFilter] user_id=1 role=admin
+DEBUG - 2026-06-12 09:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 09:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 09:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 09:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 09:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 09:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-12 09:02:22 --> ErrorException: Undefined array key "needs_server_id"
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 50.
+ 1 APPPATH\Views\home\checkout.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "needs_server_id"', 'C:\\xampp\\htdocs\\ToCe\\app\\Views\\home\\checkout.php', 50)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\ToCe\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\HomeController.php(54): view('home/checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\HomeController->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ToCe\\public\\index.php')
+DEBUG - 2026-06-12 11:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 11:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 12:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 12:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 12:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-12 12:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
